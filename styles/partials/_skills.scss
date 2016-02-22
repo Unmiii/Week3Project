@@ -1,0 +1,61 @@
+.skillsGallery {
+	position: relative;
+	margin: 0 20%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	i {
+		color: $hoverBackgroundSolid;
+		// border: 2px solid $hoverBackgroundSolid;
+		// border-radius: 50%;
+		font-size: 2.5rem;
+		&:hover {
+			color: $hoverFont;
+		}
+	}
+}
+
+.fa-magic, .fa-code, .fa-bolt, .fa-mobile {
+	border: 2px solid $hoverBackgroundSolid;
+	border-radius: 50%;
+	height: 45px;
+	width: 50px;
+	text-align: center;
+	&:hover {
+		background: $hoverBackgroundSolid;
+		border: 5px double $hoverFont;
+	}
+}
+
+.fa-magic:before, .fa-code:before, .fa-bolt:before, .fa-mobile:before {
+	position: relative;
+	top: 20%;
+}
+
+.fa-magic:before {
+	content: "\f0d0";
+}
+
+.fa-code:before {
+	content: "\f121";
+}
+
+.fa-bolt:before {
+	content: "\f0e7";
+}
+
+.fa-mobile:before {
+	content: "\f10b";
+}
+
+// .skillCoding img {
+// 	width: 70px;
+// 	height: 70px;	
+// }
+
+.skillDesign, .skillCoding, .skillBranding, .skillMobile {
+	margin: 5px;
+	padding-bottom: 50px;
+}
+
+

@@ -1,0 +1,27 @@
+.storeFront {
+	background: url(../images/shop.jpg) center no-repeat;
+	background-size: cover;
+	header {
+		padding-bottom: 30px;
+	}
+}
+
+.storeFront h4 {
+	// letter-spacing: 3px;
+	color: $homeHeader;
+	font-style: italic;
+	font-family: $detailsFont;
+	padding-top: 30px;
+}
+
+.storeFront a {
+	text-decoration: none;
+	border: 3px solid $navBorder;
+	width: 10%;
+	padding: 10px;
+	h4.button {
+	font-family: $headerFont;
+	font-style: normal;
+	padding: 0;
+	}
+}

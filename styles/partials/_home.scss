@@ -1,0 +1,125 @@
+.home {
+	  background: url('../images/hero.jpg') center no-repeat;
+	  background-size: cover;  
+	  position: relative;
+	  &:before {
+	    content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: linear-gradient(to bottom right,black,black);
+			opacity: .6;
+	  }
+	}
+
+	.home {
+		ul.nav li {
+			position: relative;
+		}
+		header h2, header h1, header h4 {
+			position: relative;
+		}
+	}
+
+.home img {
+	width: 10%;
+	position: absolute;
+	top: 2.5%;
+	// left: 230px;
+	left: 19%;	
+}
+
+ul.nav {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 0;
+	li {
+		list-style-type: none;
+		margin: 5px;
+		padding-top: 20px;
+		position: relative;
+		a {
+			color: $navColor;
+			padding: 4px 13px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: border .2s ease-out;
+			&:hover {
+				border: 3px solid $navBorder;
+			}
+		}
+	}
+}
+
+ul.nav li a.bars {
+	transition: color 0.3s ease-out;
+	&:hover {
+		border: none;
+		color: silver;
+		transition: color 0.3s linear;
+	}
+}
+
+// ul.nav li ul li a:hover {
+// 	border: none;
+// 	border-bottom: 2px solid $navBorder;
+// 	color: $hoverBackgroundSolid;
+// 	transition: border-bottom 0.3s linear;
+// }
+
+ul.nav li ul.hamburger {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	display: none;
+	position: absolute;
+}
+
+ul.nav li ul.hamburger li {
+	// display: none;
+	// position: absolute;
+	padding: 5px 0;
+	// margin: 0;
+}
+
+ul.nav li:hover ul.hamburger {
+	display: block;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	h1, h2, h4, i, a {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+.home header h1, h2 {
+	color: $homeHeader;
+}
+
+.home header h2 {
+	padding-top: 250px;
+	text-transform: none;
+	font-family: $detailsFont;
+	font-style: italic;
+	font-size: 1.7rem;
+	letter-spacing: 1px;
+}
+
+.home header h4 {
+	padding-bottom: 250px;
+	text-transform: uppercase;
+	color: $homeSmallHeader;
+	letter-spacing: 2px;
+}
+

@@ -1,0 +1,112 @@
+.footerClientList {
+	width: 100%;
+	background: $footerTop;
+}
+
+.footerWrapper {
+	padding: 10px 0;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	img {
+		width: 10%;
+		margin: 10px;
+	}
+}
+
+.mainFooter, .footerCopyright {
+	background: $footerBottom;
+	width: 100%;
+}
+
+.footerWrapper2 {
+	width: 80%;
+	padding-top: 30px;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+	.footerLogo, .footerBlog, .footerTags, .footerProfiles {
+		width: calc(25% - 25px);
+		text-align: left;
+		margin-left: 25px;
+		color: $homeSmallHeader;
+		h4 {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.footerLogo {
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+	}
+}
+
+.footerProfiles {
+	margin-right: 0;
+}
+
+.footerTags a, .footerSocial a {
+	float: left;
+	margin: 2px;
+	padding: 4px 10px;
+	text-decoration: none;
+	color: $homeSmallHeader;
+}
+
+.footerTags a {
+	background: $footerTop;
+  &:hover {
+		background: $hoverBackgroundSolid;
+  }
+}
+
+.footerTags p {
+	margin: 0;
+}
+
+.footerProfiles p {
+	padding-right: 25px;
+}
+
+.footerCopyright {
+	width: 100%;
+	.copyrightWrapper {
+		width: 76%;
+		margin: 0 auto;
+		display: flex;
+		.copyright {
+			width: 50%;
+			margin: 0;
+			color: $homeSmallHeader;
+			// padding: 0 0 15px 10px;
+			font-style: italic;
+		}
+	}
+}
+
+p.footerSocial {
+	position: relative;
+	bottom: 20px;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	a {
+  padding: 3px 11px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  &:hover {
+  	color: $hoverBackgroundSolid;
+  	border: 2px solid $hoverBackgroundSolid;
+	  }
+  }
+}
+
+p.footerSocial a.facebook {
+	padding: 3px 13px;
+}

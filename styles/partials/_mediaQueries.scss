@@ -1,0 +1,220 @@
+// 1200px (I would bother with anything above that), 960px, 728px (tablet horizontal), 420px - 320px (somewhere in mobile range)
+
+@media (max-width: 1200px) {
+	.blogInfo {
+		padding: 10px 0 0 0;
+	}
+}
+
+@media (max-width: 1040px) {
+	.aboutGallery {
+	    flex-wrap: wrap;
+	}
+
+	.aboutGallery .aboutGalleryDetails1, .aboutGallery .aboutGalleryDetails2, .aboutGallery .aboutGalleryDetails3, .aboutGallery .aboutGalleryDetails4 {
+	    width: 50%;
+	    height: 286.531px;
+	}
+
+	.aboutContent a h4.aboutButton {
+	    width: 50%;
+	}
+
+	.footerTags a, .footerSocial a {
+	    padding: 1px 2px;
+	}
+}
+// END OF 1040px MEDIA QUERY
+
+@media (max-width: 870px) {
+	.home img {
+	    top: 0.3%;
+	    left: 1%;
+	 }
+
+	.aboutGallery .aboutGalleryDetails1, .aboutGallery .aboutGalleryDetails2, .aboutGallery .aboutGalleryDetails3, .aboutGallery .aboutGalleryDetails4 {
+	    width: 100%;
+	    height: 286.531px;
+	}
+	.aboutGalleryDetails1 h4, .aboutGalleryDetails3 h4, .aboutGalleryDetails4 h4 {
+	    width: 25%;
+	    padding: 8%;
+	 }
+
+	.aboutContent a h4.aboutButton {
+	    width: 25%;
+	}
+
+	.blogGalleryWrapper .blogGalleryDetails2 .blogInfo h5 {
+		    margin: 0;
+		}
+
+	.blogGalleryWrapper .blogGalleryDetails2 .blogInfo h4 {
+		    padding: 10px 0 0;
+		    // margin: 0;
+		}
+
+	.blogGalleryWrapper .blogGalleryDetails2 .blogInfo h4.date {
+		    padding: 0;
+		}
+
+	.footerWrapper2 {
+		width: 100%;
+	}
+
+	.footerTags a, .footerSocial a {
+	    padding: 1px;
+	}
+}
+// END OF 870px MEDIA QUERY
+
+@media (max-width: 730px) {
+	.footerCopyright .copyrightWrapper {
+		width: 100%;
+	}
+
+	.footerCopyright .copyrightWrapper .copyright {
+		margin: 0 3px;
+	}
+
+	p.footerSocial {
+	  bottom: 10px;
+	  right: 10px;
+	}
+}
+// END OF 730px MEDIA QUERY
+
+@media (max-width: 650px) {
+	ul.nav {
+		width: 90%;
+	}
+	
+	ul.nav li {
+		margin: 0;
+	}
+
+	ul.nav li a {
+	    padding: 4px 10px;
+	}
+
+	.aboutGallery .aboutGalleryDetails1, .aboutGallery .aboutGalleryDetails2, .aboutGallery .aboutGalleryDetails3, .aboutGallery .aboutGalleryDetails4 {
+	    width: 100%;
+	 }	
+
+	.aboutGallery .aboutGalleryDetails1, .aboutGallery .aboutGalleryDetails2, .aboutGallery .aboutGalleryDetails3, .aboutGallery .aboutGalleryDetails4 {
+    height: 310px;
+   }
+
+   .skillsGallery {
+   	margin: 0;
+   }
+
+	.storeFront a {
+	 width: 20%;
+	}
+
+	.serviceGallery {
+		width: 92%;
+	}
+	
+	.servicesGallery .servicesDesign, .servicesGallery .servicesPhotoshooting, .servicesGallery .servicesVideoProduction, .servicesGallery .servicesPrint, .servicesGallery .servicesCopywriting, .servicesGallery .servicesMonitoring {
+	    width: 50%;
+	}
+
+	.servicesPrint, .servicesCopywriting, .servicesMonitoring {
+	    margin-top: 0;
+	}
+
+	.counter .counterWrapper {
+	    width: 99%;
+	}
+
+	footer .mainFooter .footerWrapper2 .footerLogo img {
+		width: 100%;
+		position: relative;
+		top: 10px;
+	}
+
+	footer .mainFooter .footerWrapper2 .footerBlog ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.blog {
+		width: 100%;
+	}
+}
+ // END OF 650px MEDIA QUERY
+
+@media (max-width: 450px) {
+	.aboutContent a h4.aboutButton {
+	    width: 35%;
+	}
+
+	.workLinks a {
+		margin: 0 3px;
+	}
+
+	.workGallery .gallery li {
+	    width: 50%;
+	}
+
+	.blogGalleryWrapper .blogGalleryDetails2 .blogInfo {
+		    margin: 5px;
+		}
+
+	.blogGalleryLabels1, .blogGalleryLabels2, .blogGalleryLabels3 {
+	    margin: 0 5px;
+	}
+
+	.blogGalleryLabels2 h4 {
+	    margin-top: 39px;
+	}
+
+	.footerCopyright .copyrightWrapper .copyright {
+	    width: 41%;
+	}
+}
+// END OF 450px MEDIA QUERY
+
+// @media (max-width: 320px) {
+	
+// }
+// END OF 320px MEDIA QUERY
+
+// .blogInfo h5 {
+//     margin: 0;
+// }
+
+// .blogInfo h4 {
+//     padding: 10px 0 0;
+//     margin: 0;
+//     letter-spacing: 3px;
+// }
+
+// .blogInfo h4.date {
+//     padding: 0;
+// }
+
+
+// .blogGalleryWrapper .blogGalleryDetails2 {
+//     background: url(../images/blog2.jpg) center no-repeat;
+//     margin: 0 5px;
+//     width: calc(33.33% - 10px);
+//     display: flex;
+// }
+
+// @media (max-width: 1200px)
+// .blogInfo {
+//     padding: 0;
+//     margin: 10px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+
+
+

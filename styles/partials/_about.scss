@@ -1,0 +1,190 @@
+.about {
+	position: relative;
+}
+
+.aboutImage {
+	text-align: center;
+	img {
+		width: 60%;
+	}
+}
+
+.aboutGallery {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	.aboutGalleryDetails1, .aboutGalleryDetails2, .aboutGalleryDetails3, .aboutGalleryDetails4 {
+		width: 25%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		h4 {
+			text-align: center;
+		}
+		.aboutContent {
+			background: $hoverBackground;
+			color: $hoverFont;
+			margin: 20px;
+			opacity: 0;
+			transition: opacity 0.5s;
+			text-align: center;
+			h4 {
+				text-transform: uppercase;
+			}
+			a {
+				text-decoration: none;
+				color: $navColor;
+				padding: 10px;
+				h4.aboutButton {
+					border: 3px solid #fefcfc;
+					width: 65%;
+					padding: 5px 0;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}
+
+.aboutGalleryDetails1 h4, .aboutGalleryDetails3 h4, .aboutGalleryDetails4 h4 {
+	background: $hoverBackground;
+	width: 50%;
+	border-radius: 50%;
+	// padding: 35px;
+	padding: 14%;
+	color: $hoverFont;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	&:hover .aboutContent {
+		opacity: 1;
+	}
+}
+
+// .aboutGallery {
+// 	width: 100%;
+// 	display: flex;
+// 	flex-direction: row;
+// 	.aboutGalleryDetails1, .aboutGalleryDetails2, .aboutGalleryDetails3, .aboutGalleryDetails4 {
+// 		width: 25%;
+// 		display: flex;
+// 		justify-content: center;
+// 		flex-direction: column;
+// 		h4 {
+// 			text-align: center;
+// 		}
+// 		.aboutContent {
+// 			background: $hoverBackground;
+// 			color: $hoverFont;
+// 			margin: 20px;
+// 			opacity: 0;
+// 			transition: opacity 0.5s;
+// 			text-align: center;
+// 			h4 {
+// 				text-transform: uppercase;
+// 			}
+// 			a {
+// 				text-decoration: none;
+// 				color: $navColor;
+// 				padding: 10px;
+// 				h4.aboutButton {
+// 					border: 3px solid #fefcfc;
+// 					width: 65%;
+// 					padding: 5px 0;
+// 					margin: 0 auto;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+// .aboutGallery .aboutGalleryDetails1 h4:hover .aboutContent, .aboutGallery .aboutGalleryDetails2 h4:hover .aboutContent, .aboutGallery .aboutGalleryDetails3 h4:hover .aboutContent, .aboutGallery .aboutGalleryDetails4 h4.title:hover .aboutContent {
+// 	opacity: 1;
+// }
+
+// .aboutGallery {
+// 	width: 100%;
+// 	display: flex;
+// 	flex-direction: row;
+// 	.aboutGalleryDetails1, .aboutGalleryDetails2, .aboutGalleryDetails3, .aboutGalleryDetails4 {
+// 		width: 25%;
+// 		display: flex;
+// 		justify-content: center;
+// 		flex-direction: column;
+// 		h4, p {
+// 			text-align: center;
+// 		}
+// 	}
+// }
+
+.aboutGalleryDetails1 {
+	background: url(../images/activity-4.jpg) center;
+	background-size: cover;
+}
+
+.aboutGalleryDetails2 {
+	background: url(../images/activity-3.jpg) center;
+	background-size: cover;
+	padding: 30px;
+}
+
+.aboutGalleryDetails3 {
+	background: url(../images/activity-2.jpg) center;
+	background-size: cover;
+}
+
+.aboutGalleryDetails4 {
+	background: url(../images/activity-1.jpg) center;
+	background-size: cover;
+}
+
+// .aboutGalleryDetails1 h4, .aboutGalleryDetails3 h4, .aboutGalleryDetails4 h4 {
+// 	background: $hoverBackground;
+// 	width: 50%;
+// 	border-radius: 50%;
+// 	// padding: 35px;
+// 	padding: 14%;
+// 	color: $hoverFont;
+// 	text-transform: uppercase;
+// 	margin: 0 auto;
+// 	text-align: center;
+// }
+
+// .aboutContent {
+// 	background: $hoverBackground;
+// 	color: $hoverFont;
+// 	padding: 30px;
+// 	h4 {
+// 		text-transform: uppercase;
+// 	}
+// 	a {
+// 		text-decoration: none;
+// 		color: $navColor;
+// 		padding: 10px;
+// 		h4.aboutButton {
+// 			border: 3px solid #fefcfc;
+// 			width: 65%;
+// 			padding: 5px 0;
+// 			margin: 0 auto;
+// 		}
+// 	}
+// }
+
+// .caption {
+// 	background: $hoverBackground;
+// 	color: $hoverFont;
+// 	position: absolute;
+// 	margin: 0;
+// 	top: 10px;
+// 	right: 10px;
+// 	bottom: 10px;
+// 	left: 10px;
+// 	padding-top: calc(50% - 40px);
+// 	opacity: 0;
+// 	transition: opacity 0.5s;
+// 	text-align: center;
+// }
+
+// .gallery li:hover .caption {
+// 	opacity: 1;
+// }

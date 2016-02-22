@@ -1,0 +1,52 @@
+$navColor: #fcfefe;
+$navBorder: #fefcfc;
+
+$homeHeader: #fdfbfb;
+$homeSmallHeader: #fefbfe;
+
+$headerFont: 'Oswald', sans-serif;
+$detailsFont: 'Playfair Display', serif;
+
+$bigTextColor: #4c4c4c;
+$smallTextColor: #808080;
+$aboutGallery: #fbfdfd;
+$buttonsColor: #fdfcfc;
+
+$hoverColor: #fafafb;
+$hoverFont: #fbfdfd;
+$buttonHover: #fffefe;
+
+$hoverBackground: rgba(99, 166, 159, 0.75);
+$hoverBackgroundSolid: rgba(99, 166, 159, 1);
+
+$footerTop: #808080;
+$footerBottom: #2f3035;
+// $hoverFontAwesome:  rgba(99, 166, 159, 0);
+
+// <!-- Margins in percentages are okay, but have your padding in pixels -->
+// <!-- command+curly brackets to move your code indent! -->
+
+
+// Justify-content: Aligns items along the main axis.
+// Types: flex-start, flex-end, center, space-between, space-around.
+
+// Align-items: Aligns items along the cross axis.
+// Types: flex-start, flex-end, center, baseline, stretch.
+
+// Flex-direction: Defines the direction of the main axis.
+// Types: row, reverse-row, column, column-reverse,
+
+// Order: Specifies the order of the flex item.
+// Types: -1, 0, +1;
+
+// Align-self: Aligns a flex item along the cross axis, overriding the align-items value.
+// Types: flex-start, flex-end, center, baseline, stretch
+
+// Flex-wrap: Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.
+// Types: nowrap, wrap, wrap-reverse.
+
+// Flex-flow: Shorthand property for flex-direction and flex-wrap.
+// Ex: flex-flow: <flex-direction> <flex-wrap>
+
+// Align-content: Aligns a flex container's lines within the flex container when there is extra space on the cross-axis.
+// Types: flex-start, flex-end, center, space-between, space-around, stretch.

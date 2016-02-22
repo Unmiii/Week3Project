@@ -1,0 +1,133 @@
+.blog {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	img {
+		width: 64px;
+		height: 64px;
+		border-radius: 50%;
+		border: 3px solid $hoverBackgroundSolid;
+		// width: 5%;
+		// height: 1.5%;
+		// border-radius: 50%;
+		// position: absolute;
+	}
+	h4 {
+		text-transform: uppercase;
+	}
+	h5 {
+		text-transform: none;
+		font-style: italic;
+		font-family: $detailsFont;
+	}
+}
+
+.blogGalleryDetails2 img {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	border: 3px solid #f9fdfd;
+	// padding-top: 20px;
+	// width: 30%;
+	// height: 1.5%;
+	// border-radius: 50%;
+}
+
+.blogGalleryWrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: $homeHeader;
+	.blogGalleryDetails1 {
+		background: url(../images/blog1.jpg) center no-repeat;
+		margin-right: 10px;
+		width: calc(33.33% - 10px);
+	}
+	.blogGalleryDetails2 {
+		background: url(../images/blog2.jpg) center no-repeat;
+		margin: 0 5px;
+		width: calc(33.33% - 10px);
+		display: flex;
+	}
+	.blogGalleryDetails3 {
+		background: url(../images/blog3.jpg) center no-repeat;
+		margin-left: 10px;
+		width: calc(33.33% - 10px);
+	}
+}
+
+.blogGalleryWrapper .blogGalleryDetails1, .blogGalleryWrapper .blogGalleryDetails3 {
+	height: 400px;
+}
+
+.blogGalleryWrapper .blogGalleryDetails1, .blogGalleryWrapper .blogGalleryDetails3, .blogGalleryLabelWrapper {
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+// .blogGalleryWrapper .blogGalleryDetails1, .blogGalleryWrapper .blogGalleryDetails3 {
+// 	padding: 30px 0;
+// }
+
+.blogGalleryWrapper .blogGalleryDetails1 h4, .blogGalleryWrapper .blogGalleryDetails3 h4 {
+	// background: $hoverBackground;
+	// width: 10%;
+	margin: 0;
+} 
+
+.blogDates {
+	width: 30%;
+	border-radius: 50%;
+	height: 100px;
+	padding-top: 40px;
+	background: $hoverBackground;
+	h4 {
+		letter-spacing: 3px;
+	}
+}
+
+.blogInfo {
+	padding: 30px 50px 0;
+	background: $hoverBackground;
+	margin: 15px;
+	h4 {
+		padding: 23px 0 0;
+		margin: 0;
+		letter-spacing: 3px;
+	}
+	h4.date {
+		padding: 45px 0 20px;
+	}
+	h5 {
+		margin: 10px;
+	}
+
+}
+
+.blogGalleryLabels1, .blogGalleryLabels2, .blogGalleryLabels3 {
+	margin: 0 auto;
+	position: relative;
+	bottom: 30px;
+	h4 {
+		margin: 10px 0 0;
+	}
+	h5 {
+		margin: 0;
+	}
+}
+
+.blogGalleryLabels2 h4 {
+	margin-top: 60px;
+}
+
+
+
+// .blogGalleryWrapper .blogGalleryDetails1 
+
+// .blogGalleryWrapper .blogGalleryDetails2 
+
+// .blogGalleryWrapper .blogGalleryDetails3

@@ -1,0 +1,27 @@
+.counter {
+	background: url(../images/bg1.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0;
+	.counterWrapper {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		h2 {
+			color: $hoverBackgroundSolid;
+			font-size: 4rem;
+			margin: 0;
+		}
+		h3 {
+			font-family: $detailsFont;
+			color: #fdfdfd;
+			font-style: italic;
+			margin: 0;
+			text-transform: lowercase;
+		}
+	}	
+}
